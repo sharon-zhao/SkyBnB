@@ -1,0 +1,14 @@
+<% if logged_in? %>
+<script type="text/javascript">
+  window.currentUser = <%= render(
+      "api/users/user.json.jbuilder",
+      user: current_user
+    ).html_safe %>
+</script>
+<% end %>
+<script type="text/javascript">
+  window.logo = "<%= asset_url('logo.png') %>"
+  window.user0 = "<%= asset_url('user0.png') %>"
+  window.user1 = "<%= asset_url('user1.png') %>"
+</script>
+<main id="root"></main>

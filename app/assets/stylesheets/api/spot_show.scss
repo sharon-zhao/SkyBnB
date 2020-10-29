@@ -1,0 +1,143 @@
+li {
+  list-style-type: none;
+}
+
+.show-content {
+  line-height: 18px;
+  letter-spacing: normal;
+  font-family: 'Roboto', sans-serif;
+  color: #484848;
+  font-weight: normal;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Amenities {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Amenities-left {
+  padding-left: 8px;
+  padding-right: 8px;
+  min-height: 1px;
+  position: relative;
+  width: 50%;
+  float: left;
+}
+
+.icon-Amenities-page {
+  letter-spacing: normal;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 16px;
+  line-height: 1.43;
+  color: #484848;
+  display: table;
+  box-sizing: border-box;
+  margin-top: 5px;
+
+}
+
+.spot-show-map {
+  display: block;
+  width: 80%;
+  height: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top: 1px solid lightgrey;
+}
+
+.spot-detail-container {
+  width: 80%
+}
+
+.spot-show-image {
+  max-height: 450px;
+  width: 100%;
+
+}
+
+.spot-detail-show-page {
+  width: 50.333333333333336%;
+  padding-left: 8px;
+  padding-right: 8px;
+  box-sizing: border-box;
+}
+
+
+.spot-show-header {
+  color: #572533;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: normal;
+}
+
+.spot-show-title {
+  color: black;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  line-height: 1.43;
+  color: #484848;
+}
+
+.icon-list-show-page {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.icon-show-page {
+  margin-right: 10px;
+  word-wrap: break-word;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: normal;
+  font-family: 'Roboto', sans-serif;
+  color: #484848;
+  font-weight: normal;
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+}
+
+.details-show-page {
+  margin: 0px;
+  word-wrap: break-word;
+  font-size: 17px;
+  line-height: 1.43;
+  letter-spacing: normal;
+  font-family: 'Roboto', sans-serif;
+  color: #484848;
+  font-weight:100;
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  padding-right: 2px;
+}
+
+.fasfa-warehouse {
+  margin-left: 5px;
+}
+
+.available-title {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.availability-calendar {
+  margin: 0px;
+  word-wrap: break-word;
+  font-size: 17px;
+  line-height: 1.43;
+  letter-spacing: normal;
+  font-family: 'Roboto', sans-serif;
+  color: #484848;
+  font-weight: 100;
+  display: inline;
+  text-align: center;
+  text-decoration: none;
+  padding-right: 2px;
+}

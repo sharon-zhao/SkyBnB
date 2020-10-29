@@ -1,0 +1,173 @@
+.title {
+  font-weight: 600;
+  font-size: 2.75em;
+  text-shadow: 1px 1px 40px rgba(22,23,31,0.4);
+  font-family: 'Source Sans Pro', sans-serif;
+  color: white;
+  position: relative;
+  left: 211px;
+  max-width: 500px;
+  top: 100px;
+}
+
+.searchBar-homepage {
+  position: relative;
+  top: 100px;
+}
+.searchBar {
+  position: relative;
+  top: -20px;
+  width: 65%;
+  left: -175px;
+}
+
+.search-form {
+  display: flex;
+  align-items: center;
+  width: 600px;
+  margin-top: 20px;
+  background-color: white;
+  position: relative;
+  left: 210px;
+  background-color: #ffffff;
+  -webkit-transition: box-shadow 200ms ease-in;
+  -moz-transition: box-shadow 200ms ease-in;
+  transition: box-shadow 200ms ease-in;
+  border: 1px solid #EBEBEB;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  height: 48px;
+  
+}
+
+.search-form input {
+  float: left;
+  border-style: none;
+}
+
+.search-icon-container {
+  padding-top: 35px;
+  padding-left: 20px;
+  padding-right: 10px;
+  width: 30px;
+  display: table-cell;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.search-icon {
+  height: 18px;
+  width: 18px;
+  display: block;
+  fill: currentColor;
+}
+
+.search-form-input {
+  width: 100%;
+  padding-left: 5px;
+  font-size: 21px;
+  letter-spacing: 0.07em;
+}
+
+.search-button {
+  width: 100px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  background-color: #FD595F;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  font-size: 17px;
+  line-height: 19px;
+  border-radius: 4px;
+  letter-spacing: 0.07em;
+  color: white;
+}
+
+.explore-section {
+  font-family: 'Source Sans Pro', sans-serif;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+  margin: auto;
+  padding-left: 39px;
+
+}
+ul {
+  padding-left: 0;
+}
+
+#explore {
+  position: relative;
+  top: 8px;
+  font-weight: 800;
+  font-size: 24px;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #484848;
+  padding-bottom: 5px;
+  width: 100%;
+  letter-spacing: 0.03em;
+}
+
+.manhattan {
+  display: flex;
+  flex-wrap: wrap;
+  // justify-content: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  // margin: auto;
+  color: #484848;
+  margin-bottom: 50px;
+}
+
+.explor-manhattan {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  width: 240px;
+  height: 100px;
+  position: relative;
+  display: flex;
+  border: 1px solid rgb(240, 238, 238);
+  border-radius: 3px;
+  align-items: center;
+  box-shadow: 0 1px 1px #D3D3D3;
+  margin-right: 20px;
+  margin-bottom: 15px;
+}
+
+.explor-manhattan p {
+  font-weight: 1000;
+  color: black;
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: left;
+  margin-left: 10px;
+  letter-spacing: 0.03em;
+}
+
+.explor-manhattan img {
+  width: 45%;
+  height: 100%;
+  border-radius: 2px;
+}
+
+.explor-manhattan:after {
+  content: 'TriBeCa';
+  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  width: 101%; height: 101%;
+  top:0; left:0;
+  background:rgba(0,0,0,0.7);
+  opacity: 0;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  letter-spacing: 0.05em;
+}
+
+.explor-manhattan:hover:after {
+  opacity: 2;
+}

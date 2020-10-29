@@ -1,0 +1,152 @@
+@keyframes Animate{
+  0%{background-image: url("https://cdngeneral.rentcafe.com/dmslivecafe/3/162865/_PRP0840.jpg?crop=(0,0,300,200)&cropxunits=300&cropyunits=200&quality=85&scale=both&");}
+  33%{background-image: url("https://media2.s-nbcnews.com/i/newscms/2016_29/1144622/home-vacation-prep-today-160720-tease_b4ae657a1e09780845d75b604be99522.jpg");}
+  66% {background-image: url("https://img.diytrade.com/cdimg/1683186/24304595/0/1324632494/Background_Wall_Glass.jpg");}
+}
+
+.homepage {
+  background-image: url("https://cdngeneral.rentcafe.com/dmslivecafe/3/162865/_PRP0840.jpg?crop=(0,0,300,200)&cropxunits=300&cropyunits=200&quality=85&scale=both&");
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  height: 900px;
+  animation: Animate 18s infinite;
+}
+
+.spinner-container {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+}
+
+body {
+  margin: 0px;
+}
+
+#spot-map-sticky {
+  position: sticky;
+  top: 80px;
+}
+
+.personal-site-link {
+  width:20%;
+  margin: 0 auto 20px auto;
+  display: flex;
+  color: black;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.personal-site-icon {
+  text-align: center;
+  background: #bebabe;
+  color: #ffffff;
+  line-height: 70px;
+  margin: 0 17px 14px;
+  width: 55px !important;
+  height: 55px !important;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.personal-site-icon a {
+  color: #fff;
+    width: 42px !important;
+    height: 42px !important;
+}
+
+.homepage-container{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.navBar {
+  overflow: hidden;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding-top: 19px;
+  padding-bottom: 15px;
+  z-index: 2;
+  background-color: white;
+  height: 50px;
+  border-bottom: 1px solid lightgrey;
+
+}
+
+.navBar-homepage {
+  overflow: hidden;
+  justify-content: space-between;
+  background-repeat: no-repeat;
+  display: flex;
+  top: 0px;
+  width: 100%;
+  padding-top: 19px;
+  padding-bottom: 15px;
+  z-index: 2;
+
+}
+
+.right-navBar-homepage {
+  display: flex;
+}
+
+.right-navBar-otherView {
+  display: flex;
+}
+
+.left-navBar-otherView {
+  display: flex;
+}
+
+input:focus {
+    outline:none;
+}
+
+.logo {
+  max-width: 50px;
+  max-height: 50px;
+  position: relative;
+  left: 22px;
+  top: 0px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.session-form {
+  display: flex;
+  width: 200px;
+  // margin-left: 10px;
+}
+
+.nav-sign-up {
+  color: black;
+  height: 60px;
+  background-color: transparent;
+  border: none;
+  float: right;
+  padding: 15px;
+  font-family: sans-serif;
+
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  border-radius: 0px;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.nav-sign-up:hover{
+  border-bottom: 2px solid white;
+}
+
+button:focus {outline:0;}
