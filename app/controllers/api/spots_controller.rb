@@ -5,7 +5,9 @@ class Api::SpotsController < ApplicationController
     @spot.host_id = current_user.id
     if @spot.save
       render :show
-    
+    else
+      render json: @spot.error.full_messages, status: 422
+    end
   end
 
   def update
